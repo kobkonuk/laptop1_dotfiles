@@ -1,8 +1,8 @@
 # laptop1_dotfiles
 
-// Special thanks to saneAspect on youtube that showed me matugen and pywal to create a custom theme switcher. I highly recommend you watch his videos, even though he promotes his course a lot.
+# Special thanks to saneAspect on youtube that showed me matugen and pywal to create a custom theme switcher. I highly recommend you watch his videos, even though he promotes his course a lot.
 
-That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
+# That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
 
 ![alt text](https://github.com/kobkonuk/laptop1_dotfiles/blob/main/screenshots/2025-12-02-011711_hyprshot.png?raw=true)
 
@@ -78,7 +78,7 @@ Why? I dont know, i think hyprland.conf just doesnt know where walset is. it jus
 
 //Why does waybar say "Kob" because its what my vietnamese uncle calls me because he cant say Jakob. just change the "config" file in the waybar directory to whatever u want
 
-
+//Fastfetch image issue. Just edit it and point to whatever small image you have. it says "~/Asta.png" but just point it wherever. Or point it to some ascii txt file
 
 
 
@@ -98,6 +98,7 @@ please dont accidentally type sudo rm -rf /
 
 
 !!!! NVIMNVIM!!!
+
 
 I WILL BRAINSTORM and think if there are more issues
 
