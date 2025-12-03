@@ -16,6 +16,8 @@ stuff i have installed that are cool(just google them):
 
 Pywal
 
+wbthomasons nvim packer, installation below
+
 swww
 
 Pywalfox
@@ -76,6 +78,26 @@ Why? I dont know, i think hyprland.conf just doesnt know where walset is. it jus
 
 //Why does waybar say "Kob" because its what my vietnamese uncle calls me because he cant say Jakob. just change the "config" file in the waybar directory to whatever u want
 
+
+
+
+
+//NEOVIM error, file not found or whatever. ALSO PACKER INSTALLATION!!!!
+
+//NVIM OVER HERE!!!
+
+run this
+
+git clone --depth 1 https://github.com/wbthomason/packer.nvim/ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+do this and uhh, it should work. if it says there is already something there, please cd into ~/.local/share/nvim/site/pack/packer/start/
+
+and do rm -rf packer.nvim   //if it says permission denied do sudo rm -rf packer.nvim
+
+please dont accidentally type sudo rm -rf /
+
+
+!!!! NVIMNVIM!!!
 
 I WILL BRAINSTORM and think if there are more issues
 
