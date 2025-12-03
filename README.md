@@ -5,11 +5,16 @@
 That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
 
 
+
 my dotfiles for my main laptop, with arch+hyprland
 
 (Yeah sorry, everything is in the hyprland.conf file. I like having things in one big file my bad)
 
-stuff i have installed that are cool(just google them): Pywal
+
+
+stuff i have installed that are cool(just google them): 
+
+Pywal
 
 Pywalfox
 
@@ -23,13 +28,18 @@ What else
 
 Just copy them dammit
 
-Oh yeah my hyprland.conf has its keyboard layout set to swedish
 
-And you need to put the files in the walset/ directory inside ~/.local/bin   (NOT the folder. the files need to be in .local/bin directly like that)
+
+//Notes
+
+Oh yeah my hyprland.conf has its keyboard layout set to swedish. change that to "en"
+
+
+And you need to put the files in the walset/ directory inside ~/.local/bin   (NOT the folder. the files need to be in ~/.local/bin directly like that, two files in there)
 
 Walset uses rofi to pick its wallpapers
 
-My wallpaper directory is ~/Wallpapers, but please edit walset and walset-backend to match whatever walset directory you have. 
+My wallpaper directory is ~/Wallpapers, but please edit walset and walset-backend to match whatever wallpaper directory you have. 
 
 Which means please copy and edit to your liking
 
@@ -51,7 +61,7 @@ If walset doesnt launch, or doesnt work, you have to do this:
 
 Check if you forgot to put those files in ~/.local/bin
 
-Check if you can even execute them. "chmod +x ~/.local/bin/walset" and "chmod +x ~/.local/bin/walset-backend"
+Check if you can even execute them. "chmod +x ~/.local/bin/walset" and "chmod +x ~/.local/bin/walset-backend" and run sudo if it asks for permission
 
 Modify the walset file, ~/local/bin/walset, change "walset-backend" into "~/.local/bin/walset-backend"
 
@@ -60,7 +70,10 @@ Go into the hyprland.conf, change "bind = $mainMod, space, exec, walset" and ins
 Why? I dont know, i think hyprland.conf just doesnt know where walset is. it just works on my laptop, but my desktop with pretty much the same stuff, has troubles. If it works then congrats.
 
 
+//Why does waybar say "Kob" because its what my vietnamese uncle calls me because he cant say Jakob. just change the "config" file in the waybar directory to whatever u want
+
 
 I WILL BRAINSTORM and think if there are more issues
 
 
+hi hello
