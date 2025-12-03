@@ -4,7 +4,7 @@
 
 That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
 
-![alt text](https://github.com/kobkonuk/laptop1_dotfiles/blob/[main]/screenshots/2025-12-02-011711_hyprshot.png?raw=true)
+![alt text](https://github.com/kobkonuk/laptop1_dotfiles/blob/main/screenshots/2025-12-02-011711_hyprshot.png?raw=true)
 
 my dotfiles for my main laptop, with arch+hyprland
 
