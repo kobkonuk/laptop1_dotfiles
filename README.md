@@ -1,8 +1,8 @@
 # laptop1_dotfiles
 
-# Special thanks to saneAspect on youtube that showed me matugen and pywal to create a custom theme switcher. I highly recommend you watch his videos, even though he promotes his course a lot.
+Special thanks to saneAspect on youtube that showed me matugen and pywal to create a custom theme switcher. I highly recommend you watch his videos, even though he promotes his course a lot.
 
-# That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
+that may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
 
 ![alt text](https://github.com/kobkonuk/laptop1_dotfiles/blob/main/screenshots/2025-12-02-011711_hyprshot.png?raw=true)
 
@@ -12,7 +12,7 @@ my dotfiles for my main laptop, with arch+hyprland
 
 
 
-stuff i have installed that are cool(just google them): 
+# stuff i have installed that are cool(just google them): 
 
 Pywal
 
@@ -34,7 +34,7 @@ Just copy them dammit
 
 
 
-//Notes
+# Notes
 
 Oh yeah my hyprland.conf has its keyboard layout set to swedish. change that to "en"
 
@@ -57,7 +57,7 @@ Which means if you copy these files correcly, you can just pick new wallpapers u
 Custom keybinds are easy to change. Just look at the keybinds in hyprland.conf
 
 
-//Additional notes about some errors you may encounter
+# Additional notes about some errors you may encounter
 
 If walset doesnt launch, or doesnt work, you have to do this:
 
@@ -84,7 +84,7 @@ Why? I dont know, i think hyprland.conf just doesnt know where walset is. it jus
 
 //NEOVIM error, file not found or whatever. ALSO PACKER INSTALLATION!!!!
 
-//NVIM OVER HERE!!!
+# NVIM OVER HERE!!!
 
 run this
 
@@ -96,8 +96,6 @@ and do rm -rf packer.nvim   //if it says permission denied do sudo rm -rf packer
 
 please dont accidentally type sudo rm -rf /
 
-
-!!!! NVIMNVIM!!!
 
 
 I WILL BRAINSTORM and think if there are more issues
