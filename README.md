@@ -63,7 +63,7 @@ Check if you forgot to put those files in ~/.local/bin
 
 Check if you can even execute them. "chmod +x ~/.local/bin/walset" and "chmod +x ~/.local/bin/walset-backend" and run sudo if it asks for permission
 
-Modify the walset file, ~/local/bin/walset, change "walset-backend" into "~/.local/bin/walset-backend"
+Modify the walset file, "~/local/bin/walset", change "walset-backend" into "~/.local/bin/walset-backend"
 
 Go into the hyprland.conf, change "bind = $mainMod, space, exec, walset" and instead of walset but "~/.local/bin/walset"
 
