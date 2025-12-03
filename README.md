@@ -1,4 +1,10 @@
 # laptop1_dotfiles
+
+// Special thanks to saneAspect on youtube that showed me matugen and pywal to create a custom theme switcher. I highly recommend you watch his videos, even though he promotes his course a lot.
+
+That may sound bad but, hes a good creator. Ironically he has enough free content to not need the paid course. 
+
+
 my dotfiles for my main laptop, with arch+hyprland
 
 (Yeah sorry, everything is in the hyprland.conf file. I like having things in one big file my bad)
@@ -56,3 +62,5 @@ Why? I dont know, i think hyprland.conf just doesnt know where walset is. it jus
 
 
 I WILL BRAINSTORM and think if there are more issues
+
+
