@@ -1,0 +1,33 @@
+[config]
+#...
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+#post_hook = 'hyprctl reload'
+
+[templates.wlogout]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '~/.config/wlogout/colors.css'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/midnightdiscord.css'
+output_path = '~/.config/vesktop/themes/midnightdiscord.css'
+
+#[templates.pywalfox]
+#input_path = '~/.config/matugen/templates/pywal.json'
+#output_path = '~/.cache/wal/colors.json'
+#post_hook = 'pywalfox update'
+
+
+[templates.fuzzel]
+input_path = '~/.config/matugen/templates/fuzzel.ini'
+output_path = '~/.config/fuzzel/colors.ini'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
