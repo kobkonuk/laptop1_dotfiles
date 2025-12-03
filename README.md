@@ -16,6 +16,8 @@ stuff i have installed that are cool(just google them):
 
 Pywal
 
+swww
+
 Pywalfox
 
 Matugen
