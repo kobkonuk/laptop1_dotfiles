@@ -1,0 +1,73 @@
+{
+	"reload_style_on_change": true,
+	"layer": "top",
+	"position": "top",
+	"spacing": 20,
+	"margin-top": 8,
+	"margin-left": 190,
+	"margin-right": 190,
+	"margin-bottom": 0,
+	"border-radius": 8,
+	"modules-left": [
+		"custom/power",
+		"hyprland/workspaces"
+	],
+	"modules-center": [
+		"clock"
+	],
+	"modules-right": [
+		"pulseaudio",
+		"battery"
+	],
+	"hyprland/workspaces": {
+		"disable-scroll": false,
+		"warp-on-scroll": true,
+		"format": "{name}",
+		"cursor": true
+	},
+	"bluetooth": {
+		"format": "  No Ears, Yet  ",
+		"format-disabled": "  No Ears  ",
+		"format-connected": "  Small Ears {device_battery_percentage}%  ",
+		"on-click": "blueman-manager"
+	},
+	"battery": {
+		"interval": 60,
+		"states": {
+			"full": 95,
+			"good": 85,
+			"warning": 25,
+			"critical": 10
+		},
+		"format": " {capacity}% {icon}  ",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"max-length": 25
+	},
+	"pulseaudio": {
+		"format": "  {volume}% {icon}  ",
+		"format-bluetooth": "  {volume}% {icon}  ",
+		"format-muted": "    ",
+		"format-icons": {
+			"headphones": "    ",
+			"default": [
+				" ",
+				"  "
+			]
+		},
+		"scroll-step": 1,
+		"on-click": "pavucontrol"
+	},
+	"clock": {
+		"format": "  {:%H:%M}  "
+	},
+	"custom/power": {
+		"format": "   kob ",
+		"on-click": "wlogout"
+	}
+}

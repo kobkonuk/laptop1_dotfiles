@@ -1,0 +1,69 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/asta.png",
+            "color": {
+        "1": "1"
+    }
+    },
+    "modules": [
+        {
+            "type": "break"
+        },
+        {
+            "type": "break"
+        },
+	{
+	    "type": "break"
+	},
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────────┐",
+            "outputColor": "white"
+        },
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "31"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "32"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖 ",
+            "keyColor": "33"
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "35"
+        },
+        {
+            "type": "wmtheme",
+            "key": "󰉼 ",
+            "keyColor": "34"
+        },
+                {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "36" 
+        },
+        {
+            "type": "datetime",
+            "format": "{1}-{3}-{11}",
+            "key": " ",
+            "keyColor": "35"
+        },
+	{
+	    "type": "ram"
+	},
+        {
+            "type": "custom",
+            "format": "└───────────────────────────────┘",
+            "outputColor": "white"
+        }
+    ]
+}

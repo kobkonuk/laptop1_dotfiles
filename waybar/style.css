@@ -1,0 +1,77 @@
+@import url("colors.css");
+
+* {
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 18px;
+	border-radius: 16px;
+}
+
+/*
+@define-color foreg #ddc9ae;
+@define-color backg #272e3a; #0c121d
+
+@define-color backg #0c121d;
+@define-color foreg #c2c3c6;
+*/
+
+window#waybar {
+	color: @primary;
+	background-color: transparent;
+
+}
+
+#clock {
+	background-color: @background;
+	color: @primary;
+}
+
+
+#workspaces {
+	background-color: @background;
+}
+
+#workspaces button,
+.module {
+	padding: 0 9px;
+}
+
+.module.horizontal {
+	padding: 5px;
+}
+
+#workspaces button {
+	color: @primary;
+	transition-property: padding;
+	transition-duration: 0.15s;
+}
+
+#workspaces button.active {
+	background-color: @primary;
+	color: @background;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#workspaces button.hover {
+	background-color: @surface_container;
+	color: @background;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#bluetooth {
+	background-color: @background;
+}
+
+#pulseaudio {
+	background-color: @background;
+}
+
+#battery {
+	background-color: @background;
+}
+
+#custom-power {
+	background-color: @background;
+}

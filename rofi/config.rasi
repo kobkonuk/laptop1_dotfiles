@@ -1,0 +1,152 @@
+@import "~/.config/rofi/colors.rasi"
+
+entry {
+		text-color: @primary;
+		background-color: @background;
+}
+
+window {
+    border:     0;
+    /*background-color: rgba ( 0, 0, 0, 0 % );*/
+    border-color: @background;
+    border-radius: 14px;
+    padding:    5;
+    text-color: @primary;
+    background-color: @background;
+		font: "JetBrainsmono Nerd Font 18";
+    transparency: "real";
+}
+mainbox {
+    border:  0;
+    padding: 1 1 1 1px;
+    background-color:               @background;
+	border:							0% 0% 0% 0%;
+    border-radius:                  0% 0% 0% 0%;
+	//border-color:					#759cca;
+    children:                       [ inputbar, listview ];
+    spacing:                       	0%;
+    padding:                        1% 1% 1% 1%;
+}
+message {
+    border:     0px dash 0px 0px ;
+    text-color: @primary;
+    padding:    2px 2px 2px ;
+}
+textbox {
+		border: 0;
+    text-color: @primary;
+}
+
+prompt{
+    enabled: false;
+    background-color: @primary;
+    text-color: @background;
+    padding: 	0.25% 0.75% 0.25% 0.75%;
+    border-radius: 5%;
+    font: "Jet Brains Mono Regular 12";
+}
+
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    text-color: @primary;
+		border-radius: 100px;
+}
+textbox-prompt-colon {
+    border: 0;
+		expand:     false;
+    str:        " > ";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @primary;
+    //padding: 1.40% 0% 1% 0%;
+}
+
+listview {
+    fixed-height: 0;
+    border:       0px 0px 0px ;
+    padding:      0px 0px 0px ;
+    text-color: @surface-container;
+    columns : 1;
+    lines:  7;
+    spacing: 1%;
+    background-color: @background;
+}
+element {
+		font-color: @surface-container;
+    border: 0;
+		padding: 6;
+		margin: 0;
+}
+
+element-icon {
+		border: 0;
+		padding: none;
+		margin: none;
+    size: 64px;
+    text-color: @surface-container;
+		background-color: @background;
+}
+
+element-icon.selected {
+		background-color: @primary;
+		text-color: @primary;
+		outline: 0;
+		border: 0;
+}
+
+
+element-text.selected {
+    text-color: @primary;
+}
+
+element.selected.active {
+    background-color: @primary;
+    text-color: @background;
+    border: 0;
+}
+
+element.selected.urgent {
+    background-color: @primary;
+    text-color: @background;
+    border: 0;
+}
+
+element-text {
+		border: 0;
+    background-color: @background;
+    text-color:      @on-surface;
+}
+
+element.selected.normal {
+    background-color: @primary;
+    text-color: @background;
+    border-radius: 5px;
+}
+
+element.alternate.normal {
+    background-color: @background;
+    text-color:       @primary;
+}
+
+button.selected {
+    border: 0;
+		text-color: @background;
+    background-color: @primary;
+}
+
+scrollbar {
+    width:        4px ;
+    border:       0;
+    handle-color: @primary;
+    handle-width: 8px ;
+    padding:      2;
+}
+
+inputbar {
+    spacing: 0;
+    border: 0px ;
+    text-color: @primary;
+}
+button normal {
+    border: 0;
+		text-color: @primary;
+}

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# check if there an argument is profided
+
+IMAGE="$1"
+
+notify-send "
+
+...changing theme lil bro...
+
+"
+
+swww img "$IMAGE" --transition-type="center" --transition-step=1 --transition-fps="120"
+
+wal -i "$IMAGE"
+
+matugen image "$IMAGE"
+
+pkill waybar
+waybar > /dev/null 2>&1 &
+

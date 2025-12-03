@@ -1,0 +1,32 @@
+background_opacity 0.75
+
+bold_font        Hermit
+bold_font_style  Bold
+italic_font      auto
+bold_italic_font auto
+font_size        15
+window_padding_width 7.0
+background #202630
+
+#272e3a   
+
+foreground            #ddc9ae
+cursor                #aceeee
+
+# ANSI colors (only the most important 5 mapped)
+color0  #272e3a  
+color1  #b39c91 
+color2  #868e9e   
+color3  #868e9e   
+color4  #9e8377   
+color5  #b49f95  
+color6  #6b91ce
+color7  #9e8377   
+color8  #515c36
+color9  #139e77
+color10 #5f7548
+color11 #48404b
+color12 #4f88a8
+color13 #4e3578
+color14 #52a18c
+color15 #aec2bd
