@@ -2,7 +2,8 @@ vim.opt.termguicolors = true
 vim.opt.number = true
 vim.opt.laststatus = 0
 vim.opt.numberwidth = 3
-vim.opt.statuscolumn = "%=%{v:lnum}%s   "
+--vim.opt.statuscolumn = "%=%{v:lnum}%s   "
+vim.opt.statuscolumn = "%=%{v:relnum?v:relnum:v:lnum}%s   "
 vim.opt.clipboard = "unnamedplus"
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
